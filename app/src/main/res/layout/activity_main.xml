@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parent_layout"
+    android:orientation="vertical"
+    tools:context="com.example.android.paythepiper2.MainActivity">
+
+    <Button
+        android:id="@+id/generate_price_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:textSize="25dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:background="#FFD801"
+        android:text="GENERATE PRICE"/>
+    <TextView
+        android:id="@+id/random_price_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="\u20B90"
+        android:textSize="150dp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="AMOUNT PAID:"
+            android:textStyle="bold"
+            android:textSize="25dp"/>
+        <TextView
+            android:id="@+id/amount_paid_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="\u20B90"
+            android:textSize="25dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+        <Button
+            android:id="@+id/one_view"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:background="#FFD801"
+            android:layout_marginLeft="8dp"
+            android:text="\u20B9 1" />
+        <Button
+            android:id="@+id/two_view"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:layout_marginLeft="4dp"
+            android:background="#FFD801"
+            android:text="\u20B9 2" />
+        <Button
+            android:id="@+id/five_view"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:textSize="10dp"
+            android:background="#FFD801"
+            android:text="\u20B9 5" />
+        <Button
+            android:id="@+id/ten_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#FFD801"
+            android:layout_weight="1"
+            android:layout_marginLeft="4dp"
+            android:textSize="10dp"
+            android:text="\u20B9 10" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/reset_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="reset"
+        android:background="#F75D59"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:textSize="20dp"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
